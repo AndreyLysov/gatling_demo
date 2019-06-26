@@ -1,0 +1,51 @@
+RUN	gatling_example.GoogleTest	googletest	1561377716158	 	3.1.2
+USER	Search 'Gatling demo'	9	START	1561377718139	1561377718139
+USER	Search 'Gatling demo'	6	START	1561377718133	1561377718133
+USER	Search 'Gatling demo'	10	START	1561377718142	1561377718142
+USER	Search 'Gatling demo'	8	START	1561377718139	1561377718139
+USER	Search 'Gatling demo'	2	START	1561377718121	1561377718121
+USER	Search 'Gatling demo'	7	START	1561377718138	1561377718138
+USER	Search 'Gatling demo'	5	START	1561377718130	1561377718130
+USER	Search 'Gatling demo'	1	START	1561377718121	1561377718121
+USER	Search 'Gatling demo'	3	START	1561377718121	1561377718121
+USER	Search 'Gatling demo'	4	START	1561377718130	1561377718130
+REQUEST	7		Getting Google Homepage	1561377718209	1561377729433	KO	status.find.is(200), but actually found 204
+REQUEST	2		Getting Google Homepage	1561377718195	1561377729491	KO	status.find.is(200), but actually found 204
+REQUEST	6		Getting Google Homepage	1561377718215	1561377729493	KO	status.find.is(200), but actually found 204
+REQUEST	9		Getting Google Homepage	1561377718195	1561377729494	KO	status.find.is(200), but actually found 204
+REQUEST	3		Getting Google Homepage	1561377718202	1561377729493	KO	status.find.is(200), but actually found 204
+REQUEST	5		Getting Google Homepage	1561377718195	1561377729494	KO	status.find.is(200), but actually found 204
+REQUEST	8		Getting Google Homepage	1561377718195	1561377729493	KO	status.find.is(200), but actually found 204
+REQUEST	10		Getting Google Homepage	1561377718210	1561377729693	KO	status.find.is(200), but actually found 204
+REQUEST	1		Getting Google Homepage	1561377718207	1561377729688	KO	status.find.is(200), but actually found 204
+REQUEST	4		Getting Google Homepage	1561377718204	1561377729690	KO	status.find.is(200), but actually found 204
+REQUEST	5		Searching for 'gatling demo'	1561377730514	1561377730675	OK	 
+REQUEST	8		Searching for 'gatling demo'	1561377730513	1561377730668	OK	 
+REQUEST	7		Searching for 'gatling demo'	1561377730463	1561377730667	OK	 
+REQUEST	3		Searching for 'gatling demo'	1561377730511	1561377730670	OK	 
+REQUEST	9		Searching for 'gatling demo'	1561377730509	1561377730786	OK	 
+REQUEST	2		Searching for 'gatling demo'	1561377730506	1561377730787	OK	 
+REQUEST	6		Searching for 'gatling demo'	1561377730506	1561377730809	OK	 
+REQUEST	10		Searching for 'gatling demo'	1561377730728	1561377730929	OK	 
+REQUEST	1		Searching for 'gatling demo'	1561377730726	1561377730931	OK	 
+REQUEST	4		Searching for 'gatling demo'	1561377730740	1561377730933	OK	 
+REQUEST	7		Getting additional data for search page content	1561377731659	1561377731766	KO	status.find.is(400), but actually found 200
+REQUEST	8		Getting additional data for search page content	1561377731670	1561377731766	KO	status.find.is(400), but actually found 200
+REQUEST	3		Getting additional data for search page content	1561377731670	1561377731767	KO	status.find.is(400), but actually found 200
+REQUEST	5		Getting additional data for search page content	1561377731681	1561377731784	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	7	END	1561377718138	1561377731790
+USER	Search 'Gatling demo'	8	END	1561377718139	1561377731790
+USER	Search 'Gatling demo'	3	END	1561377718121	1561377731790
+USER	Search 'Gatling demo'	5	END	1561377718130	1561377731791
+REQUEST	2		Getting additional data for search page content	1561377731792	1561377731818	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	2	END	1561377718121	1561377731820
+REQUEST	9		Getting additional data for search page content	1561377731793	1561377731867	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	9	END	1561377718139	1561377731870
+REQUEST	6		Getting additional data for search page content	1561377731805	1561377731887	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	6	END	1561377718133	1561377731889
+REQUEST	1		Getting additional data for search page content	1561377731919	1561377731973	KO	status.find.is(400), but actually found 200
+REQUEST	4		Getting additional data for search page content	1561377731919	1561377731978	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	1	END	1561377718121	1561377731979
+USER	Search 'Gatling demo'	4	END	1561377718130	1561377731980
+REQUEST	10		Getting additional data for search page content	1561377731919	1561377731987	KO	status.find.is(400), but actually found 200
+USER	Search 'Gatling demo'	10	END	1561377718142	1561377731989

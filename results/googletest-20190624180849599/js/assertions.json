@@ -1,0 +1,10 @@
+{
+  "simulation": "gatling_example.GoogleTest",
+  "simulationId": "googletest",
+  "start": 1561399729599,
+  "description": "",
+  "scenarios": ["Search 'Gatling demo'"],
+  "assertions": [
+
+  ]
+}

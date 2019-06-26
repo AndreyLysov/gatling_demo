@@ -1,0 +1,61 @@
+RUN	gatling_example.GoogleTest	googletest	1561378684843	 	3.1.2
+USER	Search 'Gatling demo'	9	START	1561378687769	1561378687769
+USER	Search 'Gatling demo'	5	START	1561378687769	1561378687769
+USER	Search 'Gatling demo'	4	START	1561378687769	1561378687769
+USER	Search 'Gatling demo'	7	START	1561378687770	1561378687770
+USER	Search 'Gatling demo'	10	START	1561378687820	1561378687820
+USER	Search 'Gatling demo'	8	START	1561378687769	1561378687769
+USER	Search 'Gatling demo'	2	START	1561378687760	1561378687760
+USER	Search 'Gatling demo'	1	START	1561378687757	1561378687757
+USER	Search 'Gatling demo'	3	START	1561378687769	1561378687769
+USER	Search 'Gatling demo'	6	START	1561378687769	1561378687769
+REQUEST	8		Getting Google Homepage	1561378687903	1561378688206	OK	 
+REQUEST	7		Getting Google Homepage	1561378687901	1561378688304	OK	 
+REQUEST	6		Getting Google Homepage	1561378687909	1561378688330	OK	 
+REQUEST	3		Getting Google Homepage	1561378687908	1561378688335	OK	 
+REQUEST	9		Getting Google Homepage	1561378687888	1561378688339	OK	 
+REQUEST	1		Getting Google Homepage	1561378687907	1561378688351	OK	 
+REQUEST	2		Getting Google Homepage	1561378687905	1561378688368	OK	 
+REQUEST	10		Getting Google Homepage	1561378687902	1561378688381	OK	 
+REQUEST	7		request_1	1561378688339	1561378688378	OK	 
+REQUEST	5		Getting Google Homepage	1561378687897	1561378688391	OK	 
+REQUEST	9		request_1	1561378688347	1561378688385	OK	 
+REQUEST	3		request_1	1561378688344	1561378688383	OK	 
+REQUEST	4		Getting Google Homepage	1561378687900	1561378688405	OK	 
+REQUEST	6		request_1	1561378688350	1561378688406	OK	 
+REQUEST	2		request_1	1561378688375	1561378688407	OK	 
+REQUEST	1		request_1	1561378688371	1561378688408	OK	 
+REQUEST	10		request_1	1561378688395	1561378688431	OK	 
+REQUEST	5		request_1	1561378688401	1561378688442	OK	 
+REQUEST	8		request_1	1561378688412	1561378688450	OK	 
+REQUEST	4		request_1	1561378688409	1561378688451	OK	 
+REQUEST	8		Searching for 'gatling demo'	1561378689484	1561378689589	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	4		Searching for 'gatling demo'	1561378689485	1561378689586	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	3		Searching for 'gatling demo'	1561378689430	1561378689558	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	5		Searching for 'gatling demo'	1561378689483	1561378689590	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	2		Searching for 'gatling demo'	1561378689429	1561378689562	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	7		Searching for 'gatling demo'	1561378689426	1561378689575	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	10		Searching for 'gatling demo'	1561378689483	1561378689647	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	6		Searching for 'gatling demo'	1561378689432	1561378689565	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	9		Searching for 'gatling demo'	1561378689426	1561378689564	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	1		Searching for 'gatling demo'	1561378689436	1561378689692	KO	jsonPath($[1]).find.is() preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: ) offset: 0 near: ")]}' [[["g..."
+REQUEST	1		request_30	1561378690690	1561378702001	OK	 
+REQUEST	10		request_30	1561378690812	1561378702001	OK	 
+REQUEST	8		request_30	1561378690822	1561378702004	OK	 
+REQUEST	3		request_30	1561378690795	1561378702010	OK	 
+REQUEST	2		request_30	1561378690805	1561378702014	OK	 
+REQUEST	6		request_30	1561378690756	1561378702020	OK	 
+REQUEST	7		request_30	1561378690805	1561378702021	OK	 
+REQUEST	4		request_30	1561378690822	1561378702023	OK	 
+USER	Search 'Gatling demo'	8	END	1561378687769	1561378702009
+USER	Search 'Gatling demo'	3	END	1561378687769	1561378702012
+USER	Search 'Gatling demo'	10	END	1561378687820	1561378702010
+USER	Search 'Gatling demo'	2	END	1561378687760	1561378702017
+USER	Search 'Gatling demo'	1	END	1561378687757	1561378702018
+USER	Search 'Gatling demo'	6	END	1561378687769	1561378702021
+USER	Search 'Gatling demo'	7	END	1561378687770	1561378702023
+USER	Search 'Gatling demo'	4	END	1561378687769	1561378702024
+REQUEST	5		request_30	1561378690805	1561378702034	OK	 
+REQUEST	9		request_30	1561378690746	1561378702036	OK	 
+USER	Search 'Gatling demo'	5	END	1561378687769	1561378702036
+USER	Search 'Gatling demo'	9	END	1561378687769	1561378702038
