@@ -58,7 +58,7 @@ class BaseSimulation extends Simulation {
   val logo_uri = "/tia/tia.png"
 
   val searchResultState: HttpRequestBuilder =
-    http("request_30").get(uri8)
+    http("getting content for results").get(uri8)
   http("request_31").get(uri6 + "/inputtools/images/tia.png")
   http("request_32").get(uri6 + "/images/branding/googlemic/2x/googlemic_color_24dp.png")
   http("request_33").get("/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png")
@@ -93,7 +93,7 @@ class BaseSimulation extends Simulation {
   http("request_50").get(uri2 + "?gadsid=AORoGNQq2xsAI7jCoeq0h8-5tSfQyNwAfYSowSO9A7cUr0UscVs1bfNTUI6ISwPL-53RTYxKRlL0Arub_mw_Z4owQ_Hlzt0KKlLqcCNvZnUO_4fmYg")
 
   val baseState: HttpRequestBuilder =
-    http("request_1").get(logo_uri)
+    http("getting google logo").get(logo_uri)
   http("request_2").get("/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png")
   http("request_3").get(uri8)
   http("request_4").get(uri6 + "/inputtools/images/tia.png")
@@ -148,7 +148,7 @@ class BaseSimulation extends Simulation {
       .resources(searchResultState)
       .check(status.is(200)))
       .pause(1)
-      .exec(http("request_51")
+      .exec(http("getting content")
         .post(some_get_url)
         .headers(headers_0))
   }
